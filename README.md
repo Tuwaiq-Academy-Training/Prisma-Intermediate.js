@@ -1,7 +1,7 @@
 محتوى الملف:
 - العلاقات 
 - أنواع العلاقات
-
+- اوامر prisma
 
 ## العلاقات
 
@@ -88,3 +88,15 @@
          id    Int    @id @default(autoincrement())
          posts Post[]
        }
+
+## اوامر prisma
+
+
+| الاوامر  | الخصائص |
+|:---:|:------:|
+|  npm install @prisma/client  | تثبيت prisma |--- |
+| npx prisma studio  |ال يعد Prisma Studio محررًا مرئيًا للبيانات الموجودة في قاعدة البيانات الخاصة بك. لاحظ أن Prisma Studio ليس مفتوح المصدر ولكن لا يزال بإمكانك إنشاء مشكلات في prisma / studio repo.|
+|  prisma db pull |استخدم علامة "-g" لتثبيت حزمة بشكل عام global على جهازك| 
+| npm install @prisma/client  |قم بتثبيت عميل Prisma في مشروعك باستخدام الأمر التالي:| 
+| prisma generate  | لتحديث قاعدة البيانات في حال االتعديل عليها  | 
+ 
