@@ -91,12 +91,5 @@
 
 ## اوامر prisma
 
+![Frame 1](https://user-images.githubusercontent.com/92247967/200297230-f8ddf4fb-014f-4343-a6f5-0db55d1bbf01.png)
 
-| الاوامر  | الخصائص |
-|:---:|:------:|
-|  npm install @prisma/client  | تثبيت prisma |--- |
-| npx prisma studio  |ال يعد Prisma Studio محررًا مرئيًا للبيانات الموجودة في قاعدة البيانات الخاصة بك. لاحظ أن Prisma Studio ليس مفتوح المصدر ولكن لا يزال بإمكانك إنشاء مشكلات في prisma / studio repo.|
-|  prisma db pull |استخدم علامة "-g" لتثبيت حزمة بشكل عام global على جهازك| 
-| npm install @prisma/client  |قم بتثبيت عميل Prisma في مشروعك باستخدام الأمر التالي:| 
-| prisma generate  | لتحديث قاعدة البيانات في حال االتعديل عليها  | 
- 
